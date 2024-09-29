@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hwb(0 95% 2%);
+}
+
+header {
+    background-color:white;
+    color:white (36, 206, 121);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white(216, 53, 53);
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('nike-hero.jpg');
+    color: hwb(0 100% 0%);
+    margin-left: auto;
+    margin-right: 0;
+    display: block; /* Ensures the button is aligned to the right */ 
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    gap: 15px;
+}
+.hero h1 {
+    color: #ff4500; /* Change the color of the heading */
+    font-size: 80px; /* Larger size for the main heading */
+    font-weight: bold; /* Make the text bold */
+    gap: 15px;  
+}
+.hero h2 {
+    color: #0939a0; /* Change the color of the heading */ 
+    font-size: 80px; /* Larger size for the main heading */
+    font-weight: bold; /* Make the text bold */
+}
+.hero h3 {
+    color: #020f2b; /* Change the color of the heading */   
+    font-size: 48px; /* Larger size for the main heading */
+    font-weight: bold; /* Make the text bold */
+    margin-right: 20;
+    text-align: right;
+  
+}
+.hero p {
+    color: #080808e3; /* Change the color of the heading */
+    font-size: 25px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product img {
+    width: 311px;
+    height: 311px;
+    top: 762px;
+    left: 157px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+button {
+    background-color:rgb(7, 196, 148);
+    color: white (78, 24, 226);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 35px; /* Larger size for the main heading */
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: hwb(0 87% 8%) (231, 223, 223);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%; /* Takes 50% of the container width */
+    float: left; /* Aligns features to the left */
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.feature img {
+    width: 50px; /* Adjust the size of the feature image */
+    height: 50px;
+}
+
+.feature h3 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.feature p {
+    font-size: 26px;
+    margin: 5px 0;
+}
+
+.shopping-image {
+    width: 45%;
+    float: right; /* Aligns the shopping image to the right */
+}
+
+.shopping-image img {
+    width: 100%;
+    border-radius: 10px;
+}
